@@ -1,14 +1,14 @@
 baxter_simulator
-==============
+================
 
 Rethink Robotics Baxter Simulator refactored for Gazebo11 with ROS Noetic.
 
 
 
 Installation Instructions
---------------
+-------------------------
+Install the following python packages:
 
-- Install the following packages:
 ::
 
      sudo apt install ros-noetic-driver-common ros-noetic-gazebo-ros-control ros-noetic-gazebo-ros-pkgs ros-noetic-ros-control ros-noetic-control-toolbox ros-noetic-realtime-tools ros-noetic-ros-controllers ros-noetic-xacro ros-noetic-tf-conversions ros-noetic-kdl-parser libyaml-cpp-dev
@@ -69,18 +69,19 @@ baxter_simulator Repository Overview
 
 
 Other Baxter Repository Forks for ROS Noetic
--------------------------
+--------------------------------------------
+
 
 +------------------+-----------------------------------------------------+
-| baxter           | https://github.com/maymohan/baxter           |
+| baxter           | https://github.com/maymohan/baxter                  |
 +------------------+-----------------------------------------------------+
-| baxter_interface | https://github.com/maymohan/baxter_interface |
+| baxter_interface | https://github.com/maymohan/baxter_interface        |
 +------------------+-----------------------------------------------------+
-| baxter_tools     | https://github.com/maymohan/baxter_tools     |
+| baxter_tools     | https://github.com/maymohan/baxter_tools            |
 +------------------+-----------------------------------------------------+
-| baxter_examples  | https://github.com/maymohan/baxter_examples  |
+| baxter_examples  | https://github.com/maymohan/baxter_examples         |
 +------------------+-----------------------------------------------------+
-| baxter_common    | https://github.com/maymohan/baxter_common    |
+| baxter_common    | https://github.com/maymohan/baxter_common           |
 +------------------+-----------------------------------------------------+
 
 Latest Release Information
