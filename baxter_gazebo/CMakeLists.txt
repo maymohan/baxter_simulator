@@ -12,7 +12,7 @@ find_package(catkin
 
 find_package(Boost REQUIRED COMPONENTS system)
 
-find_package(gazebo REQUIRED)
+find_package(GAZEBO REQUIRED)
 
 catkin_package(
   CATKIN_DEPENDS
@@ -21,7 +21,7 @@ catkin_package(
   roscpp
   controller_manager_msgs
   DEPENDS
-  gazebo
+  GAZEBO
 )
 
 link_directories(

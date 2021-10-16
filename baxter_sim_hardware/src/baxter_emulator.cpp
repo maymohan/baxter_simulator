@@ -300,6 +300,7 @@ bool baxter_emulator::init() {
   head_nod_timer = n.createTimer(ros::Duration(1),
                                  &baxter_emulator::reset_head_nod, this, true,
                                  false);
+  return 1;
 }
 
 /**
@@ -318,7 +319,7 @@ void baxter_emulator::publish(const std::string &img_path) {
   // Read OpenCV Mat image and convert it to ROS message
   cv_bridge::CvImagePtr cv_ptr(new cv_bridge::CvImage);
   try {
-    cv_ptr->image = cv::imread(img_path, CV_LOAD_IMAGE_UNCHANGED);
+    cv_ptr->image = cv::imread(img_path, cv::IMREAD_UNCHANGED);
     if (cv_ptr->image.data) {
       cv_ptr->encoding = sensor_msgs::image_encodings::BGR8;
       sleep(IMG_LOAD_ON_STARTUP_DELAY);  // Wait for the model to load

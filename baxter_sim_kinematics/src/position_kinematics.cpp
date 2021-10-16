@@ -211,6 +211,8 @@ bool position_kinematics::IKCallback(
       res.result_type[req_index]=baxter_core_msgs::SolvePositionIKResponse::RESULT_INVALID;
   }
   loop_rate.sleep();
+
+  return 1;
 }
 
 }  //namespace
