@@ -11,7 +11,7 @@ Installation Instructions
 - Install the following python packages:
 ::
 
-sudo apt install ros-noetic-driver-common ros-noetic-gazebo-ros-control ros-noetic-gazebo-ros-pkgs ros-noetic-ros-control ros-noetic-control-toolbox ros-noetic-realtime-tools ros-noetic-ros-controllers ros-noetic-xacro ros-noetic-tf-conversions ros-noetic-kdl-parser libyaml-cpp-dev
+     sudo apt install ros-noetic-driver-common ros-noetic-gazebo-ros-control ros-noetic-gazebo-ros-pkgs ros-noetic-ros-control ros-noetic-control-toolbox ros-noetic-realtime-tools ros-noetic-ros-controllers ros-noetic-xacro ros-noetic-tf-conversions ros-noetic-kdl-parser libyaml-cpp-dev
 
 
 Code & Tickets
