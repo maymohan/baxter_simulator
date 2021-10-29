@@ -1,7 +1,7 @@
 baxter_simulator
 ================
 
-Rethink Robotics Baxter Simulator refactored for Gazebo11 with ROS Noetic.
+Rethink Robotics Baxter Simulator refactored for Gazebo11, ROS Noetic and Python3
 
 
 
@@ -13,6 +13,25 @@ Install the following python packages:
 
      sudo apt install ros-noetic-driver-common ros-noetic-gazebo-ros-control ros-noetic-gazebo-ros-pkgs ros-noetic-ros-control ros-noetic-control-toolbox ros-noetic-realtime-tools ros-noetic-ros-controllers ros-noetic-xacro ros-noetic-tf-conversions ros-noetic-kdl-parser libyaml-cpp-dev
 
+The baxter_common package must be downloaded and built for the dependencies of the simulator to be met. The link to the ROS Noetic fork of the baxter_common repository can be found below.
+
+Other Baxter Repository Forks for ROS Noetic
+--------------------------------------------
+
+
++------------------+-----------------------------------------------------+
+| baxter           | https://github.com/maymohan/baxter                  |
++------------------+-----------------------------------------------------+
+| baxter_interface | https://github.com/maymohan/baxter_interface        |
++------------------+-----------------------------------------------------+
+| baxter_tools     | https://github.com/maymohan/baxter_tools            |
++------------------+-----------------------------------------------------+
+| baxter_examples  | https://github.com/maymohan/baxter_examples         |
++------------------+-----------------------------------------------------+
+| baxter_common    | https://github.com/maymohan/baxter_common           |
++------------------+-----------------------------------------------------+
+| baxter_pykdl     | https://github.com/maymohan/baxter_pykdl            |
++------------------+-----------------------------------------------------+
 
 Code & Tickets
 --------------
@@ -68,20 +87,21 @@ baxter_simulator Repository Overview
 
 
 
-Other Baxter Repository Forks for ROS Noetic
---------------------------------------------
+Other Baxter Repositories
+-------------------------
 
-
 +------------------+-----------------------------------------------------+
-| baxter           | https://github.com/maymohan/baxter                  |
+| baxter           | https://github.com/RethinkRobotics/baxter           |
 +------------------+-----------------------------------------------------+
-| baxter_interface | https://github.com/maymohan/baxter_interface        |
+| baxter_interface | https://github.com/RethinkRobotics/baxter_interface |
 +------------------+-----------------------------------------------------+
-| baxter_tools     | https://github.com/maymohan/baxter_tools            |
+| baxter_tools     | https://github.com/RethinkRobotics/baxter_tools     |
 +------------------+-----------------------------------------------------+
-| baxter_examples  | https://github.com/maymohan/baxter_examples         |
+| baxter_examples  | https://github.com/RethinkRobotics/baxter_examples  |
 +------------------+-----------------------------------------------------+
-| baxter_common    | https://github.com/maymohan/baxter_common           |
+| baxter_common    | https://github.com/RethinkRobotics/baxter_common    |
++------------------+-----------------------------------------------------+
+| baxter_pykdl     | https://github.com/RethinkRobotics/baxter_pykdl     |
 +------------------+-----------------------------------------------------+
 
 Latest Release Information
