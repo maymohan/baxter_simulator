@@ -7,7 +7,7 @@ Rethink Robotics Baxter Simulator refactored for Gazebo11, ROS Noetic and Python
 
 Installation Instructions
 -------------------------
-The detailed instllation and setup instructions are available in the `wiki of this repository <https://github.com/maymohan/baxter_simulator/wiki/Installation-Instructions>`__.
+The detailed installation and setup instructions are available in the `wiki of this repository <https://github.com/maymohan/baxter_simulator/wiki/Installation-Instructions>`__.
 
 
 Other Baxter Repository Forks for ROS Noetic
