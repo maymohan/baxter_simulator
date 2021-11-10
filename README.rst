@@ -7,13 +7,8 @@ Rethink Robotics Baxter Simulator refactored for Gazebo11, ROS Noetic and Python
 
 Installation Instructions
 -------------------------
-Install the following python packages:
+The detailed instllation and setup instructions are available in the `wiki of this repository <https://github.com/maymohan/baxter_simulator/wiki/Installation-Instructions>`__.
 
-::
-
-     sudo apt install ros-noetic-driver-common ros-noetic-gazebo-ros-control ros-noetic-gazebo-ros-pkgs ros-noetic-ros-control ros-noetic-control-toolbox ros-noetic-realtime-tools ros-noetic-ros-controllers ros-noetic-xacro ros-noetic-tf-conversions ros-noetic-kdl-parser libyaml-cpp-dev
-
-The baxter_common package must be downloaded and built for the dependencies of the simulator to be met. The link to the ROS Noetic fork of the baxter_common repository can be found below.
 
 Other Baxter Repository Forks for ROS Noetic
 --------------------------------------------
