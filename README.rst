@@ -80,26 +80,3 @@ baxter_simulator Repository Overview
      |   +-- include/
      |   +-- launch/
 
-
-
-Other Baxter Repositories
--------------------------
-
-+------------------+-----------------------------------------------------+
-| baxter           | https://github.com/RethinkRobotics/baxter           |
-+------------------+-----------------------------------------------------+
-| baxter_interface | https://github.com/RethinkRobotics/baxter_interface |
-+------------------+-----------------------------------------------------+
-| baxter_tools     | https://github.com/RethinkRobotics/baxter_tools     |
-+------------------+-----------------------------------------------------+
-| baxter_examples  | https://github.com/RethinkRobotics/baxter_examples  |
-+------------------+-----------------------------------------------------+
-| baxter_common    | https://github.com/RethinkRobotics/baxter_common    |
-+------------------+-----------------------------------------------------+
-| baxter_pykdl     | https://github.com/RethinkRobotics/baxter_pykdl     |
-+------------------+-----------------------------------------------------+
-
-Latest Release Information
---------------------------
-
-http://sdk.rethinkrobotics.com/wiki/Release-Changes
